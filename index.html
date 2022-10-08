@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="misFunciones.js"></script>
+    <title>MinTic2022</title>
+</head>
+
+<body>
+    <h1>Cliente!</h1>
+
+    //Pagina en Youtube donde puedo encontrar el reto y la informacion CRED con llamados Ajax
+    //Reto 2 Ciclo 3 parte 1: https://youtu.be/FJHHL23QDQU
+    //Reto 2 Ciclo 3 parte 2: https://youtu.be/pcomyDeFDcs  
+
+    Id de Clinte: <input type="number" id="idCliente"><br>
+    Nombre Clinte: <input type="text" id="NombreCliente"><br>
+    Correo de Clinte: <input type="email" id="mailCliente"><br>
+    Edad de Clinte: <input type="number" id="edadCliente"><br>
+
+    <button onclick="guardarCliente()">GUARDAR CLIENTE</button>
+
+    <button onclick="editarCliente()">ACTUALIZAR CLIENTE</button>
+    <button onclick="leerClientes()">TRAER CLIENTE</button>
+
+    <div id="listaClientes">
+
+    </div>
+
+</body>
+
+</html>
